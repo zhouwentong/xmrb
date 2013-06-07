@@ -166,10 +166,13 @@ body{background:url(../img/body.png) repeat-x left 33px #EDEDED;}
 .m4 li{padding:5px 0; border-bottom:1px dashed #C83431; padding-left:14px;}
 .m4 li a{font-size:14px; color:#2F2F2F;}
 .m4 .br1{margin-bottom:33px;}
-.m4 .br2{text-align:center;}
-.m4 .br2 a{margin:0 15px;}
 .m4 .br1 ul{display:none;}
 .m4 .br1 .active2{display:block;}
+.m4 .br2{padding:0 30px;}
+.m4 .l1,
+.m4 .l2{width:92px;}
+.m4 .l1 a{background:url(../img/m4-a1.png) no-repeat; width:92px; height:114px; display:block; text-indent:-999em;}
+.m4 .l2 a{background:url(../img/m4-a2.png) no-repeat; width:92px; height:114px; display:block; text-indent:-999em;}
 /*-------------------模块m5--------------------------*/
 .m5{background:url(../img/logo.png) no-repeat left center; padding-left:187px; padding-top:15px;}
 .m5 a,
