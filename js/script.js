@@ -1,7 +1,7 @@
 function check(d){
 	str=document.URL
 	strs=str.split("/");
-	window.location.href="http://wenbin5243.github.io/xmrb/"+strs[4]+"/"+d+"/"
+	window.location.href="http://www.xmnn.cn/dzbk/"+strs[4]+"/"+d+"/"
 }
 
 $(function(){
