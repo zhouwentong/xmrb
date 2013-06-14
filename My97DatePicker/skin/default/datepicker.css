@@ -134,7 +134,7 @@
 }
 .WdateDiv .WdayTable td{
 	text-align:center;
-	border:1px solid #CBCBCB; height:22px; line-height:22px;
+	border:1px solid #CBCBCB; height:22px; line-height:22px; font-size:14px;
 }
 
 .WdateDiv .Wday{

@@ -13,7 +13,6 @@ $(function(){
 		$('.m2 li').eq(index).show().siblings('li').hide();
 		$('.m4 ul').eq(index).show().siblings('ul').hide();
 		$('.m2 .smallImg li').eq(index).addClass('on').siblings().removeClass('on');
-		$('.game163 .smallImg ul').animate({left:-92*index},300);
 		return false;
 	})
 	$('.m2 .smallImg li').click(function(e) {
