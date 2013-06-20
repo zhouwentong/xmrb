@@ -5,17 +5,13 @@
 <title>厦门日报数字报</title>
 <meta name="keywords" content="厦门日报数字报" /> 
 <meta name="description" content="描述" />
-<link rel="icon" type="image/x-icon" href="/favicon.ico" />
+<link rel="icon" type="image/x-icon" href="/favicon.ico" ignoreapd="1" />
 <link href="http://zt.xmnn.cn/a/ss/css/style.css" rel="stylesheet" type="text/css" ignoreapd="1" />
 <link href="css/style.css" rel="stylesheet" type="text/css" ignoreapd="1" />
-<link href="css/jquery.ui.theme.css" rel="stylesheet" type="text/css" ignoreapd="1" />
-<link href="css/jquery.ui.datepicker.css" rel="stylesheet" type="text/css" ignoreapd="1" />
 <script src="js/jquery.min.js" ignoreapd="1"></script>
-<script src="js/jquery.ui.core.js" ignoreapd="1"></script>
-<script src="js/jquery.ui.datepicker.js" ignoreapd="1"></script>
-<script src="js/jquery.ui.widget.js" ignoreapd="1"></script>
-<script src="js/jquery.ui.datepicker-zh-TW.js" ignoreapd="1"></script>
-<script src="http://zt.xmnn.cn/a/ss/js/jquery.SuperSlide.js"></script>
+<script src="My97DatePicker/WdatePicker.js" type="text/javascript" ignoreapd="1"></script>
+<script src="http://zt.xmnn.cn/a/ss/js/jquery.SuperSlide.js" ignoreapd="1"></script>
+<script src="js/script.js" ignoreapd="1"></script>
 </head>
 
 <body>
@@ -162,7 +158,10 @@
                 	<h2>按日期查阅</h2>
                 </div>
                 <div class="b">
-                	<div id="datepicker"></div>
+                	<div id="dateBox"></div>
+					<script>
+					WdatePicker({eCont:'dateBox',minDate:'2013-05-23',dateFmt:'yyyyMMdd',maxDate:'%y-%M-%d',onpicked:function(dp){check(dp.cal.getNewDateStr())}})
+					</script>
                 </div>
             </div>
             <!--按日期查阅-->
@@ -341,6 +340,6 @@
     </div>
 </div>
 </div>
-<script src="js/script.js" ignoreapd="1"></script>
+
 </body>
 </html>
